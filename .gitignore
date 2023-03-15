@@ -1,0 +1,15 @@
+#忽略所有.a的文件
+*.a
+#跟所有的lib.a文件，即便前面忽略了
+!lib.a
+#只忽略当前目录下的TODO文件
+/TODO
+#忽略所有名为build下的文件
+build/
+#忽略doc/a.txt,但不忽略doc/src/a.txt
+doc/*.txt
+#忽略doc下的所有文件
+doc/**/*.txt
+
+#忽略test.css文件
+test.css
